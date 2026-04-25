@@ -18,6 +18,6 @@ jobs:
       uses: tibor19/static-website-deploy@v4
       with:
         enabled-static-website: 'true'
-        folder: 'website'
+        folder: '.'
         connection-string: ${{ secrets.CONNECTION_STRING }}
 
